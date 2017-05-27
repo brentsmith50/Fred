@@ -34,6 +34,8 @@ namespace TodoTaskManager
         }
         #endregion
 
+        public int Dummy { get; set; }
+
         #region Properties
         public ObservableCollection<TaskItem> TaskCollection
         {
